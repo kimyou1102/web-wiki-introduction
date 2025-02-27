@@ -70,6 +70,10 @@ article {
   flex-flow: column;
 }
 
+.sub-title {
+  margin-top: 30px;
+}
+
 .photo-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
