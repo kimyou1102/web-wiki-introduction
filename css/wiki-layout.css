@@ -144,6 +144,31 @@ ol.contents li a {
   color: var(--font-default-color);
 }
 
+.comment-form {
+  display: flex;
+}
+
+.comment-form > textarea {
+  flex-grow: 1;
+}
+
+.button-wrap {
+  display: flex;
+}
+
+.button-wrap > button {
+  border: none;
+  cursor: pointer;
+}
+
+.button-wrap > .cancle {
+  background-color: #d8d8d8;
+}
+
+.button-wrap > .register {
+  background-color: #d7f9f6;
+}
+
 footer {
   display: flex;
   flex-direction: column;
