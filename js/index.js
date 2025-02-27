@@ -50,6 +50,7 @@ $registerButton.addEventListener('click', () => {
 
   $ul.appendChild($li);
 
+  alert('댓글이 등록되었습니다');
   $textarea.value = '';
 });
 
