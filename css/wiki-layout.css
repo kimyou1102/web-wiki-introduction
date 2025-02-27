@@ -146,6 +146,7 @@ ol.contents li a {
 
 .comment-form {
   display: flex;
+  margin-top: 30px;
 }
 
 .comment-form > textarea {
